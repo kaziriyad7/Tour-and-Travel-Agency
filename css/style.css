@@ -68,7 +68,7 @@ header{
   top:0;
   left:0;
   right:0;
-  background:rgb(7, 233, 26);
+  background:rgb(113, 223, 122);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ header{
 header .logo{
   font-size: 3rem;
   font-weight: bolder;
-  color:rgb(39, 19, 226);
+  color:black;
   text-transform: uppercase;
 }
 
@@ -94,7 +94,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--orange);
+  color:black;
 }
 
 header .icons i{
@@ -105,7 +105,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color:var(--orange);
+    color:rgb(0, 0, 0);
 }
 
 header .search-bar-container{
